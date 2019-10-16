@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.40625" branch-rate="0.5454545454545454" lines-covered="13" lines-valid="32" branches-covered="12" branches-valid="22" complexity="3.0" version="2.1.1" timestamp="1520407658666">
+	<sources>
+		<source>src</source>
+	</sources>
+	<packages>
+		<package name="com.example.simple" line-rate="0.40625" branch-rate="0.5454545454545454" complexity="3.0">
+			<classes>
+				<class name="com.example.simple.Simple" filename="com/example/simple/Simple.java" line-rate="0.4642857142857143" branch-rate="0.5454545454545454" complexity="3.6">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="11" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="dummy" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="f" signature="(I)I" line-rate="0.8" branch-rate="0.6666666666666666" complexity="0">
+							<lines>
+								<line number="40" hits="2" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="47" hits="1" branch="false"/>
+								<line number="49" hits="1" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="56" hits="0" branch="false"/>
+								<line number="60" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="square" signature="(I)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="3" branch="false"/>
+								<line number="30" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="sum" signature="(Ljava/util/Collection;)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="77" hits="1" branch="false"/>
+								<line number="79" hits="1" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="81" hits="3" branch="false"/>
+								<line number="88" hits="3" branch="false"/>
+								<line number="89" hits="3" branch="false"/>
+								<line number="96" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="test" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="0" branch="false"/>
+								<line number="72" hits="0" branch="false"/>
+								<line number="73" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="3" branch="false"/>
+						<line number="18" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="23" hits="3" branch="false"/>
+						<line number="25" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="30" hits="3" branch="false"/>
+						<line number="35" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="40" hits="2" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="42" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="47" hits="1" branch="false"/>
+						<line number="49" hits="1" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="51" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="56" hits="0" branch="false"/>
+						<line number="60" hits="1" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="71" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="77" hits="1" branch="false"/>
+						<line number="79" hits="1" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="81" hits="3" branch="false"/>
+						<line number="83" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="88" hits="3" branch="false"/>
+						<line number="89" hits="3" branch="false"/>
+						<line number="91" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="96" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.example.simple.User" filename="com/example/simple/User.java" line-rate="0.0" branch-rate="1.0" complexity="1.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getData" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="update" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="0" branch="false"/>
+								<line number="11" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="0" branch="false"/>
+						<line number="8" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

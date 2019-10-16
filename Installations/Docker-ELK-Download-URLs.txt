@@ -1,0 +1,30 @@
+
+
+
+Docker for windows 10
+
+https://hub.docker.com/editions/community/docker-ce-desktop-windows
+
+ Docker ToolBox for windows 7
+
+  https://github.com/docker/toolbox/releases 
+
+ Latest ToolBox
+
+  https://github.com/docker/toolbox/releases/download/v18.09.3/DockerToolbox-18.09.3.exe
+
+  LogStash Download
+  https://artifacts.elastic.co/downloads/logstash/logstash-7.0.0.zip
+
+  
+  FileBeat Download
+
+
+  https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.0.0-windows-x86_64.zip
+
+  ElasticSearch download
+  https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.0.0-windows-x86_64.zip
+
+  Kibana download
+
+  https://artifacts.elastic.co/downloads/kibana/kibana-7.0.0-windows-x86_64.zip
